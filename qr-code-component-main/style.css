@@ -26,11 +26,15 @@ body {
 img {
     max-width: 100%;
     border-radius: 20px;
-    margin:10px;
 }
 .title{
    text-align: center;
 }
 .paragraph{
     text-align: center;
+}
+@media  (min-width: 375px) {
+    .container {
+       width: 400px;
+    }
 }
